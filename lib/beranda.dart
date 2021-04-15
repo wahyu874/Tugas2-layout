@@ -4,9 +4,6 @@ import 'package:flutter_application_wahyu/ui/home.dart' as home;
 import 'package:flutter_application_wahyu/ui/inputpenjualan.dart';
 import './menuDrawer.dart' as menuDrawer;
 import 'produk.dart';
-import 'detail.dart';
-import 'detail_about.dart';
-import 'detail_produk.dart';
 
 class Beranda extends StatefulWidget {
   @override

@@ -44,7 +44,7 @@ class _InputPenjualanState extends State<InputPenjualan> {
                 controller: nameController,
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                    labelText: "Nama",
+                    labelText: "Nama Barang",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(3.0))),
                 onChanged: (value) {},
@@ -56,7 +56,7 @@ class _InputPenjualanState extends State<InputPenjualan> {
                 controller: descController,
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                    labelText: "Keterangan",
+                    labelText: "Keterangan Barang",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(3.0))),
                 onChanged: (value) {},
@@ -68,7 +68,7 @@ class _InputPenjualanState extends State<InputPenjualan> {
                 controller: jumlahController,
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                    labelText: "Jumlah",
+                    labelText: "Jumlah Barang",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(3.0))),
                 onChanged: (value) {},
@@ -89,7 +89,7 @@ class _InputPenjualanState extends State<InputPenjualan> {
                           lastDate: DateTime(2045));
                     },
                     decoration: InputDecoration(
-                        labelText: "Tanggal",
+                        labelText: "Tanggal Pemesanan",
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(3.0))),
                   )
